@@ -82,9 +82,9 @@ public class BowlingGameTest {
 
     @Test
     public void oneStrike() {
-        bowlingGame.roll(5);
-        bowlingGame.roll(5);
-        bowlingGame.roll(2);
+        bowlingGame.roll(10);
+        bowlingGame.roll(1);
+        bowlingGame.roll(1);
         assertThat(bowlingGame.score()).isEqualTo(14);
     }
 
